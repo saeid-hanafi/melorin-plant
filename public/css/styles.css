@@ -1,0 +1,240 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    direction: rtl;
+    font-family: dana-en;
+    font-size: 15px;
+    background-color: #e8e8e8;
+    color: #303030;
+}
+#top-seo-h1{
+    display: none;
+}
+div.row{
+    margin: 0px!important;
+}
+.default-color{
+    color: #4b781c;
+}
+.default-base-color{
+    color: #303030;
+}
+.persian-dana-font{
+    font-family: dana-fn;
+}
+
+/*********** Start Navbar Main Menu Styles ***********/
+#topMenuNav{
+    top: -2px;
+}
+#main-menu-ul{
+    width: 100%;
+    height: 50px;
+}
+#main-menu-ul>li{
+    width: fit-content;
+    width: -moz-fit-content;
+    height: 100%;
+    position: relative;
+}
+#main-menu-ul li .topMenuIcons{
+    width: 25px;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#main-menu-ul>li>a{
+    font-size: 20px;
+    float: right!important;
+    margin-right: 45px;
+    margin-top: 3px;
+}
+#main-menu-ul>li>a:hover{
+    color: rgba(0,0,0,.7) !important;
+}
+#main-menu-ul li .active{
+    color: rgba(0,0,0,.5);
+}
+#main-menu-ul li .activeMenu{
+    color: rgba(0,0,0,.7);
+}
+/*********** End Navbar Main Menu Styles ***********/
+
+/*********** Start Home Top Images Styles ***********/
+.homePageImages{
+    width: auto;
+    height: 30rem;
+    display: block;
+}
+#topImageLogo{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+#topImageLogo>img{
+    width: 50%;
+}
+#topImageLogo>h1{
+    font-size: 45px;
+}
+/*********** End Home Top Images Styles ***********/
+
+/*********** Start Swiper Product Slider ***********/
+#productsUl{
+    font-size: 20px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    height: calc((100% - 30px) / 2);
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide>a{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide>a>img{
+    width: 100%;
+    height: 70%;
+}
+/*********** End Swiper Product Slider ***********/
+
+/*********** Start Contact Us Styles ***********/
+#contactUsUl{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.contactUsIcons{
+    color: #4b781c;
+    margin-left: 10px;
+}
+/*********** End Contact Us Styles ***********/
+
+/*********** Start About Us Styles **********/
+.about-us-menu-div{
+    font-size: 20px;
+}
+/*********** End About Us Styles **********/
+
+/*********** Start Footer Styles ***********/
+.footerP{
+    font-size: 15px;
+}
+/*********** End Footer Styles ***********/
+
+/**
+* Start Media Queries For Responsive
+**/
+@media only screen and (max-width: 1200px){
+    /*********** Start Home Top Images Styles ***********/
+    .homePageImages{
+        height: 25rem;
+    }
+    #topImageLogo>h1{
+        font-size: 35px;
+    }
+    /*********** End Home Top Images Styles ***********/
+}
+@media only screen and (max-width: 991px) {
+    /*********** Start Navbar Main Menu Responsive Styles ***********/
+    #main-menu-ul{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+    #main-menu-ul{
+        height: auto;
+    }
+    #main-menu-ul>li>a{
+        font-size: 24px;
+    }
+    /*********** End Navbar Main Menu Responsive Styles ***********/
+
+    /*********** Start Home Top Images Styles ***********/
+    .homePageImages{
+        height: 20rem;
+    }
+    #topImageLogo>img{
+        width: 20%;
+    }
+    #topImageLogo>h1{
+        font-size: 20px;
+    }
+    /*********** End Home Top Images Styles ***********/
+}
+
+@media only screen and (max-width: 768px) {
+    /*********** Start Navbar Main Menu Responsive Styles ***********/
+    #main-menu-ul>li>a{
+        font-size: 20px;
+    }
+    /*********** End Navbar Main Menu Responsive Styles ***********/
+
+    /*********** Start Home Top Images Styles ***********/
+    .homePageImages{
+        height: 7rem;
+    }
+    #topImageLogo>h1{
+        font-size: 15px;
+    }
+    /*********** End Home Top Images Styles ***********/
+
+    /*********** Start Swiper Product Slider ***********/
+    #productsUl{
+        font-size: 15px;
+    }
+    /*********** End Swiper Product Slider ***********/
+
+    /*********** Start Contact Us Styles ***********/
+    #contactUsUl{
+        font-size: 15px;
+    }
+    /*********** End Contact Us Styles ***********/
+
+    /*********** Start About Us Styles **********/
+    .about-us-menu-div{
+        font-size: 15px;
+    }
+    /*********** End About Us Styles **********/
+
+    /*********** Start Footer Styles ***********/
+    .footerP{
+        font-size: 12px;
+    }
+    /*********** End Footer Styles ***********/
+}
+
+/**
+* End Media Queries For Responsive
+**/

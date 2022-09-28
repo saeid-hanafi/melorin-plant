@@ -1,0 +1,20 @@
+/**
+* Start @font-face
+**/
+@font-face {
+    font-family: 'dana-fn';
+    src: url('../fonts/dana/dana-fanum-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/dana/dana-fanum-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/dana/dana-fanum-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/dana/dana-fanum-regular.woff') format('woff') /* Pretty Modern Browsers */
+}
+@font-face {
+    font-family: 'dana-en';
+    src: url('../fonts/dana/dana-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/dana/dana-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/dana/dana-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/dana/dana-regular.woff') format('woff') /* Pretty Modern Browsers */
+}
+/**
+* End @font-face
+**/

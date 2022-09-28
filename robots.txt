@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+Disallow: /public/media/*
+Sitemap: https://melorin-plant.ir/post-sitemap.xml
